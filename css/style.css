@@ -32,6 +32,10 @@ body {
   top: 0;
   width: 100%;
   z-index: 1000;
+  background: linear-gradient(
+    to right #87ceeb
+  ); /* Gradient from dark gray to your header color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow for depth */
 }
 .main-nav-list {
   list-style: none;
@@ -190,7 +194,7 @@ svg {
 
 .slider-content {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #595242;
 }
 
