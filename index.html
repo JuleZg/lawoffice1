@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Add this to the <head> section of your HTML -->
     <script src="script.js"></script>
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
@@ -12,13 +10,17 @@
   <body>
     <!-- HEADER -->
     <header class="header">
-      <h1><a class="logo" href="#">Odvjetnicki ured Papak</a></h1>
+      <a class="logo" href="#">
+        <!-- <img class="logo-img" src="/img/deal_10184981.png" alt="" />-->
+        Odvjetnicki ured<br />Danijel Papak</a
+      >
+
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#home">Početna</a></li>
           <li><a class="main-nav-link" href="#about">O Nama</a></li>
-          <li><a class="main-nav-link" href="#team">Tim</a></li>
-          <li><a class="main-nav-link" href="#services">Usluge</a></li>
+          <li><a class="main-nav-link" href="#services">Pravna podrucja</a></li>
+          <li><a class="main-nav-link" href="#partners">Partneri</a></li>
+          <li><a class="main-nav-link" href="#office">Pisarnica Šibenik</a></li>
           <li><a class="main-nav-link" href="#cta">Kontakt</a></li>
         </ul>
       </nav>
@@ -28,121 +30,40 @@
       <section class="section-hero">
         <div class="hero">
           <div class="hero-img-box">
-            <img class="hero-img" src="img\/hero-img-4.jpg" alt="" />
+            <img class="hero-img" src="img\/hero-img-0.jpg" alt="" />
           </div>
 
           <div class="about" id="about">
             <div class="about-text">
+              <div class="about-img-box">
+                <img class="about-img" src="/img/about-img.jpg" alt="" />
+              </div>
               <h2 class="about-text-heading">O nama</h2>
-              <p>
-                Društvo je posvećeno pružanju cjelovite usluge pravnog
-                savjetovanja i zastupanja u područjima trgovačkog, građanskog,
-                zemljišnoknjižnog i radnog prava, te postupcima ovrhe i stečaja.
-                Pružamo i usluge savjetovanja, zastupanja i sveobuhvatne pravne
-                podrške u području financijskih transakcija, kreditiranja,
-                insolventnosti, restrukturiranja i ugovora o financiranju, a
-                stekli smo značajno iskustvo i u provođenju postupka dubinske
-                analize (due diligence) pravnih osoba iz različitih industrija.
-                Zahvaljujući stručnosti i iskustvu u nizu pravnih područja i
-                specijaliziranosti zaposlenika, u takvom postupku nastojimo na
-                sveobuhvatan način sagledati sve rizike koje bi potencijalna
-                transakcija mogla imati za naše klijente.
+              <p class="about-desc">
+                Osnovni nam je cilj pružiti sveobuhvatnu, kvalitetnu i efikasnu
+                pravnu podršku prilagođenu interesima i potrebama svakog
+                pojedinog klijenta. U nastojanju da klijentima pružimo stručnu i
+                potpunu pravnu podršku u poslovanju surađujemo s
+                javnobilježničkim uredima, sudskim vještacima i sudskim
+                tumačima.
               </p>
             </div>
           </div>
         </div>
       </section>
-
-      <!-- TEAM -->
-      <section class="section-team" id="team">
-        <div class="team">
-          <h2 class="team-header">Vaš tim</h2>
-          <div class="team-members-container">
-            <div class="team-member-box">
-              <div class="team-member">
-                <img
-                  src="img/pape-zaposlenik_3.jpg"
-                  alt="Danijel Papak"
-                  class="team-member-img"
-                />
-                <h3 class="team-member-name">Danijel Papak</h3>
-                <p class="team-member-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Delectus eaque ipsam doloremque, deleniti laborum quas iusto
-                  aut officia accusamus consequuntur magnam exercitationem qui.
-                  In quis, iure laudantium officiis mollitia rem.
-                </p>
-              </div>
-            </div>
-
-            <div class="team-member-box">
-              <div class="team-member">
-                <img
-                  src="img/pape-zaposlenik_2.jpg"
-                  alt="Zaposlenik 2"
-                  class="team-member-img team-member-img-2"
-                />
-                <h3 class="team-member-name">Zaposlenik 2</h3>
-                <p class="team-member-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Delectus eaque ipsam doloremque, deleniti laborum quas iusto
-                  aut officia accusamus consequuntur magnam exercitationem qui.
-                  In quis, iure laudantium officiis mollitia rem.
-                </p>
-              </div>
-            </div>
-
-            <div class="team-member-box">
-              <div class="team-member">
-                <img
-                  src="img/pape-zaposlenik_4.jpg"
-                  alt="Zaposlenik 3"
-                  class="team-member-img team-member-img-3"
-                />
-                <h3 class="team-member-name">Zaposlenik 3</h3>
-                <p class="team-member-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Delectus eaque ipsam doloremque, deleniti laborum quas iusto
-                  aut officia accusamus consequuntur magnam exercitationem qui.
-                  In quis, iure laudantium officiis mollitia rem.
-                </p>
-              </div>
-            </div>
-
-            <div class="team-member-box">
-              <div class="team-member">
-                <img
-                  src="img/pape-zaposlenik_1.jpg"
-                  alt="Zaposlenik 4"
-                  class="team-member-img team-member-img-4"
-                />
-                <h3 class="team-member-name">Zaposlenik 4</h3>
-                <p class="team-member-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Delectus eaque ipsam doloremque, deleniti laborum quas iusto
-                  aut officia accusamus consequuntur magnam exercitationem qui.
-                  In quis, iure laudantium officiis mollitia rem.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <!-- AREA OF PRACTICE -->
       <section class="section-areas">
         <div class="areas" id="services">
           <h3 class="areas-header">Pravna podrucja</h3>
           <div class="areas-box">
-            <div class="areas-desc">
-              <h3 class="areas-desc-header">NAKNADA ŠTETE</h3>
+            <a class="areas-desc" href="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                stroke-width="0.8"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-6 h-6 --area-icon"
               >
                 <path
                   stroke-linecap="round"
@@ -150,27 +71,19 @@
                   d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              <p class="areas-desc-text">
-                Pripremanje i sastavljanje zahtjeva za naknadu štete od prometne
-                i pomorske nesreće Podnošenje zahtjeva za naknadu štete (npr.
-                neispunjenje ugovora, zbog ozljeđivanja u padovima, ozljedama na
-                radu, kod ugriza pasa, itd.) Podnošenja zahtjeva za naknadu
-                štete društvima za osiguranje i zastupanje pred društvima za
-                osiguranje Podnošenje tužbe i zastupanje u sudskim postupcima iz
-                područja naknade štete Zastupanje u regresnim postupcima
-              </p>
-            </div>
+              <h3 class="areas-desc-header">Upravno pravo</h3>
+              <p>Saznajte više</p>
+            </a>
           </div>
           <div class="areas-box">
-            <div class="areas-desc">
-              <h3 class="areas-desc-header">RADNO PRAVO</h3>
+            <a class="areas-desc" href="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                stroke-width="0.8"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-6 h-6 --area-icon"
                 width="6rem"
               >
                 <path
@@ -179,28 +92,108 @@
                   d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"
                 />
               </svg>
+              <h3 class="areas-desc-header">Radno Pravo</h3>
 
-              <p class="areas-desc-text">
-                Zastupanje poslodavaca i radnika u radnim sporovima Sastav
-                ugovora o radu, dodataka ugovora o radu, menadžerskih ugovora i
-                ostalih radnopravnih ugovora Sastav svih tipova otkaza i
-                sporazumnih raskida ugovora o radu Priprema organizacijskih
-                dokumenata poslodavaca (pravilnik o radu, kolektivni ugovori,
-                itd.) Zastupanje u postupcima povodom ozljede na radu, naknade
-                štete i isplate
-              </p>
-            </div>
+              <p>Saznajte više</p>
+            </a>
           </div>
           <div class="areas-box">
-            <div class="areas-desc">
-              <h3 class="areas-desc-header">SPOROVI</h3>
+            <a class="areas-desc" href="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                stroke-width="0.8"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-6 h-6 --area-icon"
+                width="6rem"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"
+                />
+              </svg>
+              <h3 class="areas-desc-header">Trgovačko Pravo</h3>
+
+              <p>Saznajte više</p>
+            </a>
+          </div>
+          <div class="areas-box">
+            <a class="areas-desc" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="0.8"
+                stroke="currentColor"
+                class="w-6 h-6 --area-icon"
+                width="6rem"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"
+                />
+              </svg>
+              <h3 class="areas-desc-header">Nasljedno Pravo</h3>
+
+              <p>Saznajte više</p>
+            </a>
+          </div>
+          <div class="areas-box">
+            <a class="areas-desc" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="0.8"
+                stroke="currentColor"
+                class="w-6 h-6 --area-icon"
+                width="6rem"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"
+                />
+              </svg>
+              <h3 class="areas-desc-header">Ugovori i Obvezno Pravo</h3>
+
+              <p>Saznajte više</p>
+            </a>
+          </div>
+          <div class="areas-box">
+            <a class="areas-desc" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="0.8"
+                stroke="currentColor"
+                class="w-6 h-6 --area-icon"
+                width="6rem"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"
+                />
+              </svg>
+              <h3 class="areas-desc-header">Upravni i Porezni Postupci</h3>
+
+              <p>Saznajte više</p>
+            </a>
+          </div>
+          <div class="areas-box">
+            <a class="areas-desc" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="0.8"
+                stroke="currentColor"
+                class="w-6 h-6 --area-icon"
               >
                 <path
                   stroke-linecap="round"
@@ -208,26 +201,19 @@
                   d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
                 />
               </svg>
-              <p class="areas-desc-text">
-                Zastupanje u parničnim postupcima (npr. trgovački sporovi,
-                povrede ugovornih obveza, itd.) Zastupanje u postupcima
-                arbitraže i mirenja Podnošenje ustavne tužbe i zastupanje pred
-                Ustavnim sudom Republike Hrvatske Podnošenje tužbe i zastupanje
-                u postupku pred Europskim sudom za ljudska prava u Strasbourgu i
-                Sudom Europske unije
-              </p>
-            </div>
+              <h3 class="areas-desc-header">Sporovi</h3>
+              <p>Saznajte više</p>
+            </a>
           </div>
           <div class="areas-box">
-            <div class="areas-desc">
-              <h3 class="areas-desc-header">UPRAVNO PRAVO</h3>
+            <a class="areas-desc" href="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                stroke-width="0.8"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-6 h-6 --area-icon"
               >
                 <path
                   stroke-linecap="round"
@@ -235,24 +221,113 @@
                   d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z"
                 />
               </svg>
-              <p class="areas-desc-text">
-                Zastupanje u općem upravnom postupku pred javnopravnom tijelima
-                (npr. podnošenje žalbe na odluku prvostupanjskog tijela kojim se
-                odbija priznanje invaliditeta) Podnošenje upravnih tužbi i
-                zastupanje u upravnim sporovima (npr. upravna tužba radi
-                priznavanja ozljede na radu) Statusna pitanja stranaca (npr.
-                državljanstvo, dozvole za boravak i rad, itd.)
-              </p>
-            </div>
+              <h3 class="areas-desc-header">Naknada Štete</h3>
+              <p>Saznajte više</p>
+            </a>
+          </div>
+          <div class="areas-box">
+            <a class="areas-desc" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="0.8"
+                stroke="currentColor"
+                class="w-6 h-6 --area-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z"
+                />
+              </svg>
+              <h3 class="areas-desc-header">Ovrhe</h3>
+              <p>Saznajte više</p>
+            </a>
           </div>
         </div>
       </section>
 
+      <section class="section-partners" id="partners">
+        <h2>Partneri</h2>
+      </section>
+      <section class="section-office" id="office">
+        <h2>Pisarnica Šibenik</h2>
+      </section>
       <!-- CONTACT CTA -->
       <section class="section-cta" id="cta"><h2>Kontakt forma</h2></section>
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Kontaktirajte nas</h2>
+
+              <form class="cta-form" name="sign-up" netlify>
+                <div>
+                  <!-- <label for="first-name">Ime</label> -->
+                  <input
+                    id="first-name"
+                    type="text"
+                    placeholder="Vaše Ime"
+                    name="first-name"
+                    required
+                  />
+                </div>
+                <div>
+                  <!-- <label for="last_name">Prezime</label> -->
+                  <input
+                    id="name"
+                    type="text"
+                    placeholder="Vaše Prezime"
+                    name="last-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <!-- <label for="email">Email addresa</label> -->
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div>
+                  <!-- <label for="phone">Telefon</label> -->
+                  <input
+                    id="phone"
+                    type="number"
+                    placeholder="Broj telefona"
+                    name="phone"
+                    required
+                  />
+                </div>
+                <div>
+                  <!-- <label for="phone">Telefon</label> -->
+                  <input
+                    id="message"
+                    type="text"
+                    placeholder="Vaša poruka"
+                    name="message"
+                    required
+                  />
+                </div>
+
+                <button class="btn btn--form" type="submit">
+                  Pošalji poruku
+                </button>
+
+                <!-- <input type="checkbox" />
+                <input type="number" /> -->
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <!-- Add this just before the closing </body> tag -->
     <div class="slider">
       <div class="slider-content">
         <h2>ODVJETNIČKI URED</h2>
