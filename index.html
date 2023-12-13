@@ -255,16 +255,17 @@
         <h2>Pisarnica Šibenik</h2>
       </section>
       <!-- CONTACT CTA -->
-      <section class="section-cta" id="cta"><h2>Kontakt forma</h2></section>
       <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
-              <h2 class="heading-secondary">Kontaktirajte nas</h2>
+              <h2 class="cta-heading">Kontaktirajte nas</h2>
 
-              <form class="cta-form" name="sign-up" netlify>
-                <div>
-                  <!-- <label for="first-name">Ime</label> -->
+              <form class="cta-form" name="submit" netlify>
+                <div class="name">
+                  <label for="first-name"
+                    >Ime: <span class="req">*</span></label
+                  >
                   <input
                     id="first-name"
                     type="text"
@@ -273,8 +274,10 @@
                     required
                   />
                 </div>
-                <div>
-                  <!-- <label for="last_name">Prezime</label> -->
+                <div class="surname">
+                  <label for="last_name"
+                    >Prezime: <span class="req">*</span></label
+                  >
                   <input
                     id="name"
                     type="text"
@@ -284,8 +287,10 @@
                   />
                 </div>
 
-                <div>
-                  <!-- <label for="email">Email addresa</label> -->
+                <div class="email">
+                  <label for="email"
+                    >Email addresa: <span class="req">*</span></label
+                  >
                   <input
                     id="email"
                     type="email"
@@ -294,18 +299,20 @@
                     required
                   />
                 </div>
-                <div>
-                  <!-- <label for="phone">Telefon</label> -->
+                <div class="telphone">
+                  <label for="phone">Telefon: <span class="req">*</span></label>
                   <input
                     id="phone"
-                    type="number"
+                    type="tel"
                     placeholder="Broj telefona"
                     name="phone"
                     required
                   />
                 </div>
-                <div>
-                  <!-- <label for="phone">Telefon</label> -->
+                <div class="text-message">
+                  <label for="message"
+                    >Poruka: <span class="req">*</span></label
+                  >
                   <input
                     id="message"
                     type="text"
