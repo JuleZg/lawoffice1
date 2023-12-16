@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" />
     <title>Odvjetničko društvo</title>
   </head>
   <body>
@@ -30,7 +31,7 @@
       <section class="section-hero">
         <div class="hero">
           <div class="hero-img-box">
-            <img class="hero-img" src="img\/hero-img-0.jpg" alt="" />
+            <img class="hero-img" src="img/hero-img-5.jpg" alt="" />
           </div>
 
           <div class="about" id="about">
@@ -52,7 +53,250 @@
         </div>
       </section>
       <!-- AREA OF PRACTICE -->
-      <section class="section-areas">
+      <section class="area-section" id="services">
+        <div class="container">
+          <div class="as-content flex">
+            <div class="col1">
+              <h2>Naša područja prakse</h2>
+              <p>
+                Mi pristupamo svakom slučaju s odlučnošću i stručnošću da bi
+                postigli ciljeve naših klijenata. Naša multidisciplinarnost u
+                praksi donosi personalizirane i visoko kvalitne usluge u
+                nekoliko podrucja prava.
+              </p>
+              <h3>Pouzdani i stručni savjetnici, Praktična riješenja</h3>
+              <p><a class="more" href="#/">Read More</a></p>
+            </div>
+            <div class="col2">
+              <h3>Područja Prakse</h3>
+              <ul>
+                <li><a href="#">Radno Pravo</a></li>
+                <li><a href="#">Obiteljsko Pravo</a></li>
+                <li><a href="#">Ugovori i Obvezno Pravo</a></li>
+                <li><a href="#">Nekretnine</a></li>
+              </ul>
+            </div>
+            <div class="col3"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer-section" id="cta">
+        <div class="container">
+          <div class="fs-content flex">
+            <div class="fs-cta">
+              <form class="cta-form" name="submit" netlify>
+                <h2 class="cta-heading">Kontaktirajte nas</h2>
+                <div class="name form-content">
+                  <label for="name">Ime: <span class="req">*</span></label>
+                  <input
+                    id="name"
+                    type="text"
+                    placeholder=" Vaše Ime"
+                    name="name"
+                    required
+                  />
+                </div>
+                <div class="email form-content">
+                  <label for="email"
+                    >Email addresa: <span class="req">*</span></label
+                  >
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder=" email@email.com"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="telphone form-content">
+                  <label for="phone">Telefon: <span class="req">*</span></label>
+                  <input
+                    id="phone"
+                    type="tel"
+                    placeholder=" Broj telefona"
+                    name="phone"
+                    required
+                  />
+                </div>
+                <div class="text-message form-content">
+                  <label for="text-message"
+                    >Poruka: <span class="req">*</span></label
+                  ><textarea
+                    id="message"
+                    name="message"
+                    rows="15"
+                    required
+                  ></textarea>
+                </div>
+                <p>*obavezno polje</p>
+                <button class="btn" type="submit">Pošalji poruku</button>
+              </form>
+            </div>
+            <div class="fs-info">
+              <div class="fs-text">
+                <h3>Što nas čini drugačijima?</h3>
+                <p>
+                  Posvećeni smo pružanju najviše kvalitete personaliziranih
+                  pravnih usluga.
+                </p>
+                <p>
+                  Naše široko iskustvo i opsežni resursi osiguravaju da naši
+                  klijenti dobiju personaliziranu, profesionalnu uslugu najvećeg
+                  kalibra.
+                </p>
+                <h4>Adresa</h4>
+                <p>
+                  Josipa Ruđera Boškovića 13a <br />Zagreb 10000<br />
+                  Hrvatska
+                </p>
+                <ul class="fsphone flex">
+                  <li>
+                    <h4>Telefon</h4>
+                    <a href="tel:9253623364"> +385 (0)1 466 2002</a>
+                  </li>
+                  <li>
+                    <h4>Fax</h4>
+                    +385 (0)1 466 2001
+                  </li>
+                </ul>
+                <h4>Radno vrijeme:</h4>
+                <p>
+                  PONEDJELJAK - PETAK: 09:00 - 17:00 <br />
+                  SUBOTA &amp; NEDJELJA: NE RADIMO
+                </p>
+                <div class="fs-copy">
+                  <p>© Copyright 2023 All Rights Reserved.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="slider">
+      <div class="slider-content">
+        <h2>ODVJETNIČKI URED</h2>
+        <h3>DANIJEL PAPAK</h3>
+        <!-- <h2>Dedication. Passion. Experience. Commitment.</h2>
+      <p>Providing the highest quality legal services.</p> -->
+      </div>
+    </div>
+  </body>
+</html>
+<!--<section class="section-partners" id="partners">
+        <h2>Partneri</h2>
+      </section>
+      <section class="section-office" id="office">
+        <h2>Pisarnica Šibenik</h2>
+      </section> -->
+<!-- CONTACT CTA -->
+<!-- <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="cta-heading">
+                Kontaktirajte nas
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="{1.5}"
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                  />
+                </svg>
+              </h2>
+
+              <form class="cta-form" name="submit" netlify>
+                <div class="name">
+                  <label for="first-name"
+                    >Ime: <span class="req">*</span></label
+                  >
+                  <input
+                    id="first-name"
+                    type="text"
+                    placeholder="Vaše Ime"
+                    name="first-name"
+                    required
+                  />
+                </div>
+                <div class="surname">
+                  <label for="last_name"
+                    >Prezime: <span class="req">*</span></label
+                  >
+                  <input
+                    id="name"
+                    type="text"
+                    placeholder="Vaše Prezime"
+                    name="last-name"
+                    required
+                  />
+                </div>
+
+                <div class="email">
+                  <label for="email"
+                    >Email addresa: <span class="req">*</span></label
+                  >
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="telphone">
+                  <label for="phone">Telefon: <span class="req">*</span></label>
+                  <input
+                    id="phone"
+                    type="tel"
+                    placeholder="Broj telefona"
+                    name="phone"
+                    required
+                  />
+                </div>
+                <div class="text-message">
+                  <label for="text-message"
+                    >Poruka: <span class="req">*</span></label
+                  >
+
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="13"
+                    required
+                  ></textarea>
+                </div>
+
+                <button class="btn btn--form" type="submit">
+                  Pošalji poruku
+                </button>
+
+                 <input type="checkbox" />
+                <input type="number" /> 
+              </form>
+            </div>
+          </div>
+        </div> -->
+<!-- <form
+          action="https://formspree.io/your-email@example.com"
+          method="POST"
+        >
+          <label>Email:</label>
+          <input type="email" name="_replyto" />
+          <label>Message:</label>
+          <textarea name="message"></textarea>
+          <button type="submit">Send</button>
+        </form> -->
+
+<!-- <section class="section-areas">
         <div class="areas" id="services">
           <h3 class="areas-header">Pravna podrucja</h3>
           <div class="areas-box">
@@ -245,101 +489,4 @@
               <p>Saznajte više</p>
             </a>
           </div>
-        </div>
-      </section>
-
-      <section class="section-partners" id="partners">
-        <h2>Partneri</h2>
-      </section>
-      <section class="section-office" id="office">
-        <h2>Pisarnica Šibenik</h2>
-      </section>
-      <!-- CONTACT CTA -->
-      <section class="section-cta" id="cta">
-        <div class="container">
-          <div class="cta">
-            <div class="cta-text-box">
-              <h2 class="cta-heading">Kontaktirajte nas</h2>
-
-              <form class="cta-form" name="submit" netlify>
-                <div class="name">
-                  <label for="first-name"
-                    >Ime: <span class="req">*</span></label
-                  >
-                  <input
-                    id="first-name"
-                    type="text"
-                    placeholder="Vaše Ime"
-                    name="first-name"
-                    required
-                  />
-                </div>
-                <div class="surname">
-                  <label for="last_name"
-                    >Prezime: <span class="req">*</span></label
-                  >
-                  <input
-                    id="name"
-                    type="text"
-                    placeholder="Vaše Prezime"
-                    name="last-name"
-                    required
-                  />
-                </div>
-
-                <div class="email">
-                  <label for="email"
-                    >Email addresa: <span class="req">*</span></label
-                  >
-                  <input
-                    id="email"
-                    type="email"
-                    placeholder="me@example.com"
-                    name="email"
-                    required
-                  />
-                </div>
-                <div class="telphone">
-                  <label for="phone">Telefon: <span class="req">*</span></label>
-                  <input
-                    id="phone"
-                    type="tel"
-                    placeholder="Broj telefona"
-                    name="phone"
-                    required
-                  />
-                </div>
-                <div class="text-message">
-                  <label for="message"
-                    >Poruka: <span class="req">*</span></label
-                  >
-                  <input
-                    id="message"
-                    type="text"
-                    placeholder="Vaša poruka"
-                    name="message"
-                    required
-                  />
-                </div>
-
-                <button class="btn btn--form" type="submit">
-                  Pošalji poruku
-                </button>
-
-                <!-- <input type="checkbox" />
-                <input type="number" /> -->
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <div class="slider">
-      <div class="slider-content">
-        <h2>ODVJETNIČKI URED</h2>
-        <h3>DANIJEL PAPAK</h3>
-      </div>
-    </div>
-  </body>
-</html>
+        </div> -->
