@@ -11,17 +11,13 @@
   <body>
     <!-- HEADER -->
     <header class="header">
-      <a class="logo" href="#">
-        <!-- <img class="logo-img" src="/img/deal_10184981.png" alt="" />-->
-        Odvjetnicki ured<br />Danijel Papak</a
-      >
-
+      <a class="logo" href="#"> Odvjetnicki ured<br />Danijel Papak</a>
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#about">O Nama</a></li>
           <li><a class="main-nav-link" href="#services">Pravna podrucja</a></li>
-          <li><a class="main-nav-link" href="#partners">Partneri</a></li>
-          <li><a class="main-nav-link" href="#office">Pisarnica Šibenik</a></li>
+          <!-- <li><a class="main-nav-link" href="#partners">Partneri</a></li>
+          <li><a class="main-nav-link" href="#office">Pisarnica Šibenik</a></li> -->
           <li><a class="main-nav-link" href="#cta">Kontakt</a></li>
         </ul>
       </nav>
@@ -34,6 +30,7 @@
             <img class="hero-img" src="img/hero-img-5.jpg" alt="" />
           </div>
 
+          <!-- HERO ABOUT -->
           <div class="about" id="about">
             <div class="about-text">
               <div class="about-img-box">
@@ -52,7 +49,8 @@
           </div>
         </div>
       </section>
-      <!-- AREA OF PRACTICE -->
+
+      <!-- AREA OF PRACTICE SECTION -->
       <section class="area-section" id="services">
         <div class="container">
           <div class="as-content flex">
@@ -70,17 +68,33 @@
             <div class="col2">
               <h3>Područja Prakse</h3>
               <ul>
-                <li><a href="#">Radno Pravo</a></li>
-                <li><a href="#">Obiteljsko Pravo</a></li>
-                <li><a href="#">Ugovori i Obvezno Pravo</a></li>
-                <li><a href="#">Nekretnine</a></li>
+                <li><a href="#/">Radno Pravo</a></li>
+                <li><a href="#/">Obiteljsko Pravo</a></li>
+                <li><a href="#/">Ugovori i Obvezno Pravo</a></li>
+                <li><a href="#/">Nekretnine</a></li>
               </ul>
             </div>
             <div class="col3"></div>
           </div>
         </div>
       </section>
-
+      <section class="partnership-section">
+        <div class="container">
+          <div class="ps-content flex">
+            <div class="ps-col1">
+              <h2>Strateška Partnerstva za Izvrsnost</h2>
+              <p>
+                Udruzili smo se s vodećim stručnjacima kako bismo osigurali
+                vrhunsku pravnu zaštitu našim klijentima. Naši partneri su
+                stručnjaci u različitim pravnim područjima, donoseći duboko
+                razumijevanje specifičnih disciplina prava.
+              </p>
+              <p><a class="more" href="#/">Saznajte više</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FOOTER CTA -->
       <section class="footer-section" id="cta">
         <div class="container">
           <div class="fs-content flex">
@@ -130,9 +144,11 @@
                   ></textarea>
                 </div>
                 <p>* obavezno polje</p>
-                <button class="btn" type="submit">Pošalji poruku</button>
+                <button class="btn" type="submit">Kontaktirajte nas</button>
               </form>
             </div>
+
+            <!-- FOOTER INFO -->
             <div class="fs-info">
               <div class="fs-text">
                 <h3>Što nas čini drugačijima?</h3>
@@ -145,11 +161,17 @@
                   klijenti dobiju personaliziranu, profesionalnu uslugu najvećeg
                   kalibra.
                 </p>
-                <h4>Adresa</h4>
-                <p>
-                  Josipa Ruđera Boškovića 13a <br />Zagreb 10000<br />
-                  Hrvatska
-                </p>
+                <div class="fs-text-adress">
+                  <h4>Adresa</h4>
+                  <h4>Pisarnica Šibenik</h4>
+                  <p class="zagreb">
+                    Josipa Ruđera Boškovića 13a <br />Zagreb, 10000<br />
+                    Hrvatska
+                  </p>
+                  <p class="sibenik">
+                    Ražine bb <br />Šibenik, 22000 <br />Hrvatska
+                  </p>
+                </div>
                 <ul class="fsphone flex">
                   <li>
                     <h4>Telefon</h4>
@@ -179,314 +201,12 @@
       <div class="slider-content">
         <h2>ODVJETNIČKI URED</h2>
         <h3>DANIJEL PAPAK</h3>
-        <!-- <h2>Dedication. Passion. Experience. Commitment.</h2>
-      <p>Providing the highest quality legal services.</p> -->
+        <h2>
+          Posvećenost. Strast. <br />
+          Iskustvo. Predanost.
+        </h2>
+        <h3>Pružanje najkvalitetnijih pravnih usluga.</h3>
       </div>
     </div>
   </body>
 </html>
-<!--<section class="section-partners" id="partners">
-        <h2>Partneri</h2>
-      </section>
-      <section class="section-office" id="office">
-        <h2>Pisarnica Šibenik</h2>
-      </section> -->
-<!-- CONTACT CTA -->
-<!-- <section class="section-cta" id="cta">
-        <div class="container">
-          <div class="cta">
-            <div class="cta-text-box">
-              <h2 class="cta-heading">
-                Kontaktirajte nas
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="{1.5}"
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
-                  />
-                </svg>
-              </h2>
-
-              <form class="cta-form" name="submit" netlify>
-                <div class="name">
-                  <label for="first-name"
-                    >Ime: <span class="req">*</span></label
-                  >
-                  <input
-                    id="first-name"
-                    type="text"
-                    placeholder="Vaše Ime"
-                    name="first-name"
-                    required
-                  />
-                </div>
-                <div class="surname">
-                  <label for="last_name"
-                    >Prezime: <span class="req">*</span></label
-                  >
-                  <input
-                    id="name"
-                    type="text"
-                    placeholder="Vaše Prezime"
-                    name="last-name"
-                    required
-                  />
-                </div>
-
-                <div class="email">
-                  <label for="email"
-                    >Email addresa: <span class="req">*</span></label
-                  >
-                  <input
-                    id="email"
-                    type="email"
-                    placeholder="me@example.com"
-                    name="email"
-                    required
-                  />
-                </div>
-                <div class="telphone">
-                  <label for="phone">Telefon: <span class="req">*</span></label>
-                  <input
-                    id="phone"
-                    type="tel"
-                    placeholder="Broj telefona"
-                    name="phone"
-                    required
-                  />
-                </div>
-                <div class="text-message">
-                  <label for="text-message"
-                    >Poruka: <span class="req">*</span></label
-                  >
-
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows="13"
-                    required
-                  ></textarea>
-                </div>
-
-                <button class="btn btn--form" type="submit">
-                  Pošalji poruku
-                </button>
-
-                 <input type="checkbox" />
-                <input type="number" /> 
-              </form>
-            </div>
-          </div>
-        </div> -->
-<!-- <form
-          action="https://formspree.io/your-email@example.com"
-          method="POST"
-        >
-          <label>Email:</label>
-          <input type="email" name="_replyto" />
-          <label>Message:</label>
-          <textarea name="message"></textarea>
-          <button type="submit">Send</button>
-        </form> -->
-
-<!-- <section class="section-areas">
-        <div class="areas" id="services">
-          <h3 class="areas-header">Pravna podrucja</h3>
-          <div class="areas-box">
-            <a class="areas-desc" href="#">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="0.8"
-                stroke="currentColor"
-                class="w-6 h-6 --area-icon"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              <h3 class="areas-desc-header">Upravno pravo</h3>
-              <p>Saznajte više</p>
-            </a>
-          </div>
-          <div class="areas-box">
-            <a class="areas-desc" href="#">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="0.8"
-                stroke="currentColor"
-                class="w-6 h-6 --area-icon"
-                width="6rem"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"
-                />
-              </svg>
-              <h3 class="areas-desc-header">Radno Pravo</h3>
-
-              <p>Saznajte više</p>
-            </a>
-          </div>
-          <div class="areas-box">
-            <a class="areas-desc" href="#">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="0.8"
-                stroke="currentColor"
-                class="w-6 h-6 --area-icon"
-                width="6rem"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"
-                />
-              </svg>
-              <h3 class="areas-desc-header">Trgovačko Pravo</h3>
-
-              <p>Saznajte više</p>
-            </a>
-          </div>
-          <div class="areas-box">
-            <a class="areas-desc" href="#">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="0.8"
-                stroke="currentColor"
-                class="w-6 h-6 --area-icon"
-                width="6rem"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"
-                />
-              </svg>
-              <h3 class="areas-desc-header">Nasljedno Pravo</h3>
-
-              <p>Saznajte više</p>
-            </a>
-          </div>
-          <div class="areas-box">
-            <a class="areas-desc" href="#">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="0.8"
-                stroke="currentColor"
-                class="w-6 h-6 --area-icon"
-                width="6rem"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"
-                />
-              </svg>
-              <h3 class="areas-desc-header">Ugovori i Obvezno Pravo</h3>
-
-              <p>Saznajte više</p>
-            </a>
-          </div>
-          <div class="areas-box">
-            <a class="areas-desc" href="#">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="0.8"
-                stroke="currentColor"
-                class="w-6 h-6 --area-icon"
-                width="6rem"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"
-                />
-              </svg>
-              <h3 class="areas-desc-header">Upravni i Porezni Postupci</h3>
-
-              <p>Saznajte više</p>
-            </a>
-          </div>
-          <div class="areas-box">
-            <a class="areas-desc" href="#">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="0.8"
-                stroke="currentColor"
-                class="w-6 h-6 --area-icon"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
-                />
-              </svg>
-              <h3 class="areas-desc-header">Sporovi</h3>
-              <p>Saznajte više</p>
-            </a>
-          </div>
-          <div class="areas-box">
-            <a class="areas-desc" href="#">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="0.8"
-                stroke="currentColor"
-                class="w-6 h-6 --area-icon"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z"
-                />
-              </svg>
-              <h3 class="areas-desc-header">Naknada Štete</h3>
-              <p>Saznajte više</p>
-            </a>
-          </div>
-          <div class="areas-box">
-            <a class="areas-desc" href="#">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="0.8"
-                stroke="currentColor"
-                class="w-6 h-6 --area-icon"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z"
-                />
-              </svg>
-              <h3 class="areas-desc-header">Ovrhe</h3>
-              <p>Saznajte više</p>
-            </a>
-          </div>
-        </div> -->
