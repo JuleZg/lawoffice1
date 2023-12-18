@@ -1,23 +1,5 @@
-//slider
+//  ********************hero slider********************
 
-// document.addEventListener("DOMContentLoaded", function () {
-//   const slider = document.querySelector(".slider");
-
-//   if (slider) {
-//     // Add scroll event listener to control slider visibility
-//     window.addEventListener("scroll", function () {
-//       if (window.scrollY <= 200) {
-//         // If scrolled to the top, add 'active' class to the slider
-//         slider.classList.add("active");
-//       } else {
-//         // If not at the top, remove 'active' class to hide the slider
-//         slider.classList.remove("active");
-//       }
-//     });
-//   } else {
-//     console.error("Slider element not found.");
-//   }
-// });
 document.addEventListener("DOMContentLoaded", function () {
   const slider = document.querySelector(".slider");
 
@@ -40,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// hero-img scaling
+// ********************hero-img scaling********************
 document.addEventListener("DOMContentLoaded", function () {
   const heroImg = document.querySelector(".hero-img");
 
@@ -58,19 +40,30 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// $(document).ready(function () {
-//   $('a[href^="#"]').on("click", function (event) {
-//     var target = $($(this).attr("href"));
-//     if (target.length) {
-//       event.preventDefault();
-//       $("html, body")
-//         .stop()
-//         .animate(
-//           {
-//             scrollTop: target.offset().top - 100,
-//           },
-//           1000
-//         );
-//     }
-//   });
-// });
+// ********************load the header********************
+function loadHeader() {
+  // Fetch the header.html content
+  fetch("header.html")
+    .then((response) => response.text())
+    .then((html) => {
+      // Insert the header content into the headerContainer div
+      document.getElementById("headerContainer").innerHTML = html;
+    })
+    .catch((error) => console.error("Error loading header:", error));
+}
+// Call the loadHeader function when the page loads
+document.addEventListener("DOMContentLoaded", loadHeader);
+
+// ********************load the footer********************
+function loadFooter() {
+  // Fetch the footer.html content
+  fetch("footer.html")
+    .then((response) => response.text())
+    .then((html) => {
+      // Insert the footer content into the footerContainer div
+      document.getElementById("footerContainer").innerHTML = html;
+    })
+    .catch((error) => console.error("Error loading footer:", error));
+}
+// Call the loadFooter function when the page loads
+document.addEventListener("DOMContentLoaded", loadFooter);
