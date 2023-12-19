@@ -65,6 +65,13 @@ body {
 .main-nav-link {
   color: #000;
   background-image: linear-gradient(90deg, #000, #000, #000);
+  background-image: linear-gradient(
+    90deg,
+    transparent 0.1rem,
+    #6b5947 0.1rem,
+    #6b5947 1rem
+  );
+
   background-size: 0% 2px;
   background-repeat: no-repeat;
   background-position: center bottom;
