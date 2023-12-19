@@ -24,6 +24,11 @@ body {
 /**************************/
 /* HEADER */
 /**************************/
+
+#about,
+.partnership {
+  scroll-margin-top: 7.27812rem;
+}
 .header {
   display: flex;
   position: fixed;
@@ -561,3 +566,35 @@ h4 {
   color: #000;
   line-height: 3.8rem;
 }
+
+/* ********************************* */
+/* PARTNERSHIP - PRACTICE AREA HTML  */
+/* ********************************* */
+.partnership-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 7rem 10rem 7rem 10rem;
+  font-size: 2.5rem;
+}
+.partnership-col2,
+.partnership-col3,
+.partnership-col4,
+.partnership-col5 {
+  padding: 0 3rem 0 3rem;
+}
+.partnership-col2 h2,
+.partnership-col3 h2,
+.partnership-col4 h2,
+.partnership-col5 h2 {
+  padding-bottom: 2rem;
+}
+.partnership-col2 {
+  text-align: center;
+  grid-column: 1 / span 3;
+}
+
+.partnership-img {
+  display: block; /* Ensure the image is a block element */
+  height: 40rem;
+}
+/* Add this CSS to your stylesheet */
