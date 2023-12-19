@@ -410,8 +410,8 @@ body {
   flex-direction: column;
 }
 .cta-form label,
-input,
-p {
+.cta-form input,
+.cta-form p {
   font-size: 1.75rem;
   padding: 0.3rem;
 }
@@ -503,36 +503,59 @@ h4 {
 /* ******************************* */
 /* PRACTICE AREA HTML */
 /* ******************************* */
+
+.pa-hero {
+  margin-top: 5rem;
+  position: relative;
+}
+.pa-hero-img {
+  display: block; /* Ensure the image is a block element */
+  max-width: 100%; /* Make sure the image doesn't exceed its container */
+  height: auto; /* Maintain the aspect ratio of the image */
+}
+.pa-hero-text {
+  position: absolute;
+  top: 50%; /* Adjust as needed to center the text vertically */
+  left: 10%; /* Center the text horizontally */
+  transform: translate(-28%, -63%); /* Center the text precisely */
+  color: #000; /* Set the text color */
+  font-size: 7rem; /* Adjust the font size as needed */
+}
 .pa-content {
   display: flex;
-  margin-top: 2rem;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
+}
+.pa-content h2 {
+  padding-bottom: 3rem;
+}
+.pa-content p {
+  padding-bottom: 2rem;
 }
 .pa-col1 {
   width: 25%;
   padding: 2% 3%;
   background-color: rgb(185, 150, 113, 1);
   color: #fff;
-  line-height: 5.5rem;
+  line-height: 3.8rem;
 }
 .pa-col2 {
   width: 25%;
   padding: 2% 3%;
   background-color: #000;
   color: #fff;
-  line-height: 5.5rem;
+  line-height: 3.8rem;
 }
 .pa-col3 {
   width: 25%;
   padding: 2% 3%;
   background-color: #e7e7e7;
   color: #000;
-  line-height: 5.5rem;
+  line-height: 3.8rem;
 }
 .pa-col4 {
   width: 25%;
   padding: 2% 3%;
   background-color: #adadad;
   color: #000;
-  line-height: 5.5rem;
+  line-height: 3.8rem;
 }
