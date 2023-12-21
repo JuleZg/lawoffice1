@@ -545,7 +545,21 @@ h4 {
 .pa-content p {
   padding-bottom: 2rem;
 }
+.pa-more {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: inherit;
+  padding: 0 2rem 2rem 0;
+  text-decoration: underline;
+}
+.pa-more:hover {
+  transition: 0.5s ease;
+  text-decoration: none;
+}
+
 .pa-col1 {
+  position: relative;
   width: 25%;
   padding: 2% 3%;
   background-color: rgb(185, 150, 113, 1);
@@ -553,6 +567,8 @@ h4 {
   line-height: 3.8rem;
 }
 .pa-col2 {
+  position: relative;
+
   width: 25%;
   padding: 2% 3%;
   background-color: #000;
@@ -560,6 +576,7 @@ h4 {
   line-height: 3.8rem;
 }
 .pa-col3 {
+  position: relative;
   width: 25%;
   padding: 2% 3%;
   background-color: #e7e7e7;
@@ -567,6 +584,7 @@ h4 {
   line-height: 3.8rem;
 }
 .pa-col4 {
+  position: relative;
   width: 25%;
   padding: 2% 3%;
   background-color: #adadad;
@@ -648,18 +666,6 @@ h4 {
   background-color: #adadad;
 }
 
-.bl-col1 h2,
-.bl-col1 p,
-.bl-col2 h2,
-.bl-col2 p,
-.bl-col3 h2,
-.bl-col3 p,
-.bl-col4 h2,
-.bl-col4 p,
-.bl-col5 h2,
-.bl-col5 p {
-  /* padding-bottom: 5rem; */
-}
 .bl-col3 {
   background-color: #e7e7e7;
   text-align: center;
