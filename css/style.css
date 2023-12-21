@@ -27,7 +27,7 @@ body {
 
 #about,
 .partnership {
-  scroll-margin-top: 7.27812rem;
+  scroll-margin-top: 12.27812rem;
 }
 .header {
   display: flex;
@@ -573,7 +573,6 @@ h4 {
   color: #000;
   line-height: 3.8rem;
 }
-
 /* ********************************* */
 /* PARTNERSHIP - PRACTICE AREA HTML  */
 /* ********************************* */
@@ -605,3 +604,80 @@ h4 {
   height: 40rem;
 }
 /* Add this CSS to your stylesheet */
+/* ******************************* */
+/* BUISNESS LAW HTML */
+/* ******************************* */
+.bl-hero {
+  margin-top: 2rem;
+  position: relative;
+}
+.bl-hero-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.bl-hero-text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-28%, -63%);
+  color: #000;
+  font-size: 7rem;
+}
+
+.bl-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.bl-col1,
+.bl-col2,
+.bl-col3,
+.bl-col4,
+.bl-col5,
+.bl-col6 {
+  text-align: center;
+  height: 100%;
+  padding: 5rem 5rem;
+  font-size: 2rem;
+}
+.bl-col1 {
+  grid-column: 1 / span 5;
+  text-align: center;
+}
+.bl-col2 {
+  background-color: #adadad;
+}
+
+.bl-col1 h2,
+.bl-col1 p,
+.bl-col2 h2,
+.bl-col2 p,
+.bl-col3 h2,
+.bl-col3 p,
+.bl-col4 h2,
+.bl-col4 p,
+.bl-col5 h2,
+.bl-col5 p {
+  /* padding-bottom: 5rem; */
+}
+.bl-col3 {
+  background-color: #e7e7e7;
+  text-align: center;
+  height: 100%;
+}
+.bl-col4 {
+  background-color: #000;
+  text-align: center;
+  height: 100%;
+  color: #fff;
+}
+.bl-col5 {
+  background-color: #b99671;
+  text-align: center;
+  height: 100%;
+  color: #fff;
+}
+.bl-col6 {
+  grid-column: 1 / span 4;
+  text-align: center;
+}
