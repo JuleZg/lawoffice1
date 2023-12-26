@@ -67,3 +67,33 @@ function loadFooter() {
 }
 // Call the loadFooter function when the page loads
 document.addEventListener("DOMContentLoaded", loadFooter);
+
+// ********************dropdown link 1st&2nd click********************
+// let dropdownContentVisible = false;
+
+// function toggleDropdown(event) {
+//   event.preventDefault();
+
+//   const dropdownContent = event.target.nextElementSibling;
+
+//   if (!dropdownContentVisible) {
+//     // Show dropdown content
+//     dropdownContent.style.display = "block";
+//     dropdownContentVisible = true;
+//   } else {
+//     // Redirect to the linked page
+//     const link = event.target.getAttribute("href");
+//     window.location.href = link;
+//   }
+// }
+
+// // Check if the screen width is below a certain threshold (e.g., 600px)
+// function isMobile() {
+//   return window.innerWidth <= 1344;
+// }
+
+// // Attach the click event only if the screen size is below the threshold
+// if (isMobile()) {
+//   const dropdownLink = document.querySelector(".main-nav-link");
+//   dropdownLink.onclick = toggleDropdown;
+// }

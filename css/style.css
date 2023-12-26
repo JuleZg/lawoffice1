@@ -11,11 +11,7 @@ html {
 }
 
 body {
-  font-family: "Didot";
-  font-family: "Bodoni";
-  font-family: "Futura";
-  font-family: "Trajan";
-  font-family: "Montserrat";
+  overflow: hidden;
   font-family: "Garamond";
   line-height: 1.2;
   font-weight: 400;
@@ -27,26 +23,26 @@ body {
 
 #about,
 .partnership {
-  scroll-margin-top: 12.27812rem;
+  scroll-margin-top: 7.27812rem;
 }
+
 .header {
   display: flex;
   position: fixed;
-  top: 0;
   width: 100%;
+  top: 0;
   justify-content: space-between;
   z-index: 1000;
   align-items: center;
-  background-color: rgb(185, 150, 113);
+  background-color: #b99671;
   padding: 0 3.6rem;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
   color: #fff;
-  font-size: 2.8rem;
-  font-weight: 700;
+  font-weight: 400;
   text-decoration: none;
 }
 .logo {
-  display: flex;
+  /* display: flex; */
   text-decoration: none;
   color: inherit;
   align-items: center;
@@ -55,34 +51,44 @@ body {
   font-weight: 400;
   padding: 1rem 0;
 }
+.logo:hover {
+  color: #000;
+  transition: 0.5s;
+  background-size: 100% 0.2rem;
+}
 .main-nav-list {
-  list-style: none;
   display: flex;
+  list-style: none;
   align-items: center;
   justify-content: space-between;
-  gap: 6rem;
+  gap: 3rem;
 }
+
 .main-nav-link {
   color: #000;
-  background-image: linear-gradient(90deg, #000, #000, #000);
   background-image: linear-gradient(
     90deg,
     transparent 0.1rem,
     #6b5947 0.1rem,
     #6b5947 1rem
   );
-
   background-size: 0% 2px;
   background-repeat: no-repeat;
   background-position: center bottom;
   transition: background-size 300ms;
+  font-size: 3.5rem;
+
   text-decoration: none;
 }
-.main-nav-link:hover,
-.logo:hover {
+.header-svg {
+  height: 2.8rem;
+  padding: 0rem 2rem;
+}
+.main-nav-link:hover {
   color: #000;
   transition: 0.5s;
   background-size: 100% 0.2rem;
+  color: #f1f1f1;
 }
 /* Dropdown container */
 .dropdown {
@@ -97,13 +103,13 @@ body {
   min-width: 25.3rem;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  background-color: rgb(185, 150, 113);
+  background-color: #b99671;
   opacity: 0;
   height: 0; /* Initially set height to 0 */
   overflow: hidden; /* Hide overflow content */
   padding: 10px;
   box-sizing: border-box;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 300;
 }
 
@@ -119,8 +125,8 @@ body {
 /* Change color on hover */
 .dropdown-content a:hover {
   color: #f1f1f1;
-  font-size: 2rem;
-  border-bottom: solid rgb(185, 150, 113);
+  font-size: 2.5rem;
+  border-bottom: solid #b99671;
 }
 
 /* Show the dropdown content when hovering over the dropdown link */
@@ -136,7 +142,6 @@ body {
 /**************************/
 .hero-img-box {
   height: 73.3rem;
-  /* transform: scaleX(-1); */
 }
 .hero-img {
   width: 100%;
@@ -189,48 +194,49 @@ body {
   background-color: #ffffff;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0 2rem;
   text-align: center;
   height: 73.3rem;
 }
+.about-img-box {
+  grid-column: 1;
+}
+.about-img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .about-text-heading {
-  font-size: 5rem;
+  font-size: 6.2rem;
   grid-column: 2;
   grid-row: 1;
-  padding-top: 7rem;
   background-color: #b99671;
   color: #fff;
-  padding: 12% 4% 12% 5%;
+  padding: 5rem;
 }
 .about-desc {
   grid-column: 2;
   grid-row: 1;
   align-self: center;
   justify-self: center;
-  width: 65rem;
-  z-index: 999;
   color: #fff;
-  font-size: 3rem;
+  font-size: 3.7rem;
   font-weight: 400;
-  line-height: 4.3rem;
+  line-height: 5.3rem;
+  padding: 5rem;
 }
 
-.about-img-box {
+/* .about-img-box {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   width: 65rem;
-
   margin: 7rem 0;
   grid-column: 1;
   justify-self: center;
-}
-.about-img {
-  max-width: 100%;
-  height: auto;
-}
-.about-img-box::before {
+} */
+
+/* .about-img-box::before {
   content: "";
   position: absolute;
   top: 50px;
@@ -254,21 +260,18 @@ body {
   transform: rotate(6deg);
   transform-origin: center;
   box-sizing: border-box;
-}
+} */
 
 /**************************/
 /* AREA OF PRACTICE SECTION */
 /**************************/
 .area-section {
-  font-size: 3rem;
   font-weight: 700;
-  text-transform: none;
 }
 .area-section h2 {
   font-size: 5.8rem;
   font-weight: 700;
-  margin-bottom: 5rem;
-  text-transform: none;
+  padding-bottom: 5rem;
 }
 .area-section p {
   font-size: 2rem;
@@ -276,22 +279,19 @@ body {
   line-height: 3rem;
 }
 .area-section h3 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 700;
-  text-transform: none;
   margin-bottom: 5rem;
-  line-height: 1.5em;
+  line-height: 3.5rem;
 }
 .as-content {
   display: flex;
-  flex-wrap: wrap;
 }
 .col1 {
   width: 33.3333333%;
   padding: 7% 4% 2% 5%;
   background-color: rgb(185, 150, 113, 1);
   color: #fff;
-  line-height: 5.5rem;
 }
 .col1 a {
   text-decoration: underline;
@@ -310,18 +310,15 @@ body {
   color: #b99671;
 }
 .col2 h3 {
-  font-size: 4rem;
-  font-weight: 700;
-  text-transform: none;
   margin-bottom: 5rem;
-  line-height: 1.5em;
+  line-height: 3.5rem;
 }
 .col2 ul {
   list-style: none;
 }
 .col2 li {
   margin-bottom: 10%;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .col2 a {
@@ -349,22 +346,23 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 25rem;
+  height: 40rem;
 }
 .ps-col1 {
   float: right;
   width: 50%;
   height: 100%;
-  padding-right: 20rem;
+  padding-right: 10rem;
+  padding-top: 2rem;
 }
 .ps-col1 h2 {
   padding-top: 3rem;
-  margin-bottom: 3rem;
-  font-size: 3.1rem;
+  margin-bottom: 6rem;
+  font-size: 4rem;
 }
 .ps-col1 p {
   /* margin-bottom: 4rem; */
-  font-size: 2.1rem;
+  font-size: 3.1rem;
 }
 .ps-col1 a {
   color: #b99671;
@@ -523,31 +521,32 @@ h4 {
   position: relative;
 }
 .pa-hero-img {
-  display: block; /* Ensure the image is a block element */
-  max-width: 100%; /* Make sure the image doesn't exceed its container */
-  height: auto; /* Maintain the aspect ratio of the image */
+  display: block;
+  max-width: 100%;
+  height: 40rem;
 }
 .pa-hero-text {
   position: absolute;
-  top: 50%; /* Adjust as needed to center the text vertically */
-  left: 10%; /* Center the text horizontally */
-  transform: translate(-28%, -63%); /* Center the text precisely */
-  color: #000; /* Set the text color */
-  font-size: 7rem; /* Adjust the font size as needed */
+  top: 50%;
+  left: 10%;
+  transform: translate(-28%, -63%);
+  color: #000;
+  font-size: 7rem;
 }
 .pa-content {
   display: flex;
   font-size: 2.5rem;
 }
 .pa-content h2 {
-  padding-bottom: 3rem;
+  padding-bottom: 7rem;
+  text-align: center;
 }
 .pa-content p {
   padding-bottom: 2rem;
 }
 .pa-more {
   position: absolute;
-  bottom: 0;
+  bottom: 2.5rem;
   right: 0;
   color: inherit;
   padding: 0 2rem 2rem 0;
@@ -561,67 +560,70 @@ h4 {
 .pa-col1 {
   position: relative;
   width: 25%;
-  padding: 2% 3%;
-  background-color: rgb(185, 150, 113, 1);
+  background-color: #b99671;
   color: #fff;
-  line-height: 3.8rem;
 }
 .pa-col2 {
   position: relative;
-
   width: 25%;
-  padding: 2% 3%;
   background-color: #000;
   color: #fff;
-  line-height: 3.8rem;
 }
 .pa-col3 {
   position: relative;
   width: 25%;
-  padding: 2% 3%;
   background-color: #e7e7e7;
   color: #000;
-  line-height: 3.8rem;
 }
 .pa-col4 {
   position: relative;
   width: 25%;
-  padding: 2% 3%;
   background-color: #adadad;
   color: #000;
-  line-height: 3.8rem;
+}
+.pa-col1,
+.pa-col2,
+.pa-col3,
+.pa-col4 {
+  line-height: 4rem;
+  padding: 8rem 5rem;
 }
 /* ********************************* */
 /* PARTNERSHIP - PRACTICE AREA HTML  */
 /* ********************************* */
+
+/* TODO dodati slike ili ikone u kolone*/
 .partnership-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 7rem 10rem 7rem 10rem;
+  padding: 0rem 10rem 7rem 10rem;
   font-size: 2.5rem;
 }
+
 .partnership-col2,
 .partnership-col3,
 .partnership-col4,
 .partnership-col5 {
   padding: 0 3rem 0 3rem;
+  text-align: center;
+}
+.partnership-col3,
+.partnership-col4,
+.partnership-col5 {
+  padding: 0 3rem 0 3rem;
+  border: #b99671 solid 0.1rem;
 }
 .partnership-col2 h2,
 .partnership-col3 h2,
 .partnership-col4 h2,
 .partnership-col5 h2 {
-  padding-bottom: 2rem;
+  padding: 6rem 0;
 }
 .partnership-col2 {
-  text-align: center;
+  /* text-align: center; */
   grid-column: 1 / span 3;
 }
 
-.partnership-img {
-  display: block; /* Ensure the image is a block element */
-  height: 40rem;
-}
-/* Add this CSS to your stylesheet */
 /* ******************************* */
 /* BUISNESS LAW HTML */
 /* ******************************* */
@@ -632,7 +634,7 @@ h4 {
 .bl-hero-img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: 40rem;
 }
 .bl-hero-text {
   position: absolute;
@@ -653,13 +655,19 @@ h4 {
 .bl-col4,
 .bl-col5,
 .bl-col6 {
+  /* text-align: center; */
+  padding: 6rem;
+  font-size: 3rem;
+}
+.bl-col2 h2,
+.bl-col3 h2,
+.bl-col4 h2,
+.bl-col5 h2 {
+  padding-bottom: 5rem;
   text-align: center;
-  height: 100%;
-  padding: 5rem 5rem;
-  font-size: 2rem;
 }
 .bl-col1 {
-  grid-column: 1 / span 5;
+  grid-column: 1 / span 4;
   text-align: center;
 }
 .bl-col2 {
@@ -668,19 +676,13 @@ h4 {
 
 .bl-col3 {
   background-color: #e7e7e7;
-  text-align: center;
-  height: 100%;
 }
 .bl-col4 {
   background-color: #000;
-  text-align: center;
-  height: 100%;
   color: #fff;
 }
 .bl-col5 {
   background-color: #b99671;
-  text-align: center;
-  height: 100%;
   color: #fff;
 }
 .bl-col6 {
