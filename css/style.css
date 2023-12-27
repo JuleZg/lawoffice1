@@ -382,6 +382,7 @@ body {
   background-color: #000;
   color: #fff;
 }
+.fs-info,
 .fs-cta {
   width: 50%;
 }
@@ -454,10 +455,7 @@ textarea {
 /**************************/
 /* FOOTER INFO */
 /**************************/
-.fs-info,
-.fs-cta {
-  width: 50%;
-}
+
 .fs-text {
   padding: 5rem 10rem;
 }
