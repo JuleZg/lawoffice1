@@ -25,6 +25,12 @@ body {
 .partnership {
   scroll-margin-top: 7.27812rem;
 }
+.mobile-menu-button {
+  display: none;
+}
+.mobile-nav-menu {
+  display: none;
+}
 
 .header {
   display: flex;
@@ -77,7 +83,6 @@ body {
   background-position: center bottom;
   transition: background-size 300ms;
   font-size: 3.5rem;
-
   text-decoration: none;
 }
 .header-svg {

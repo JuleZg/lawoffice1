@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // ********************hero-img scaling********************
+
 document.addEventListener("DOMContentLoaded", function () {
   const heroImg = document.querySelector(".hero-img");
 
@@ -41,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // ********************load the header********************
+
 function loadHeader() {
   // Fetch the header.html content
   fetch("header.html")
@@ -55,6 +57,7 @@ function loadHeader() {
 document.addEventListener("DOMContentLoaded", loadHeader);
 
 // ********************load the footer********************
+
 function loadFooter() {
   // Fetch the footer.html content
   fetch("footer.html")
@@ -68,32 +71,20 @@ function loadFooter() {
 // Call the loadFooter function when the page loads
 document.addEventListener("DOMContentLoaded", loadFooter);
 
-// ********************dropdown link 1st&2nd click********************
-// let dropdownContentVisible = false;
+// ********************mobile nav********************
 
-// function toggleDropdown(event) {
-//   event.preventDefault();
+function toggleMobileMenu() {
+  var mobileNavMenu = document.querySelector(".mobile-nav-menu");
+  if (mobileNavMenu) {
+    mobileNavMenu.classList.toggle("show");
 
-//   const dropdownContent = event.target.nextElementSibling;
-
-//   if (!dropdownContentVisible) {
-//     // Show dropdown content
-//     dropdownContent.style.display = "block";
-//     dropdownContentVisible = true;
-//   } else {
-//     // Redirect to the linked page
-//     const link = event.target.getAttribute("href");
-//     window.location.href = link;
-//   }
-// }
-
-// // Check if the screen width is below a certain threshold (e.g., 600px)
-// function isMobile() {
-//   return window.innerWidth <= 1344;
-// }
-
-// // Attach the click event only if the screen size is below the threshold
-// if (isMobile()) {
-//   const dropdownLink = document.querySelector(".main-nav-link");
-//   dropdownLink.onclick = toggleDropdown;
-// }
+    // Add event listeners to links inside the menu
+    var menuLinks = mobileNavMenu.querySelectorAll("a");
+    menuLinks.forEach(function (link) {
+      link.addEventListener("click", function () {
+        // Close the mobile menu when a link is clicked
+        mobileNavMenu.classList.remove("show");
+      });
+    });
+  }
+}
