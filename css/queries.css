@@ -314,7 +314,9 @@
   .dropdown {
     grid-row: 1;
   }
-
+  .dropdown:hover .dropdown-content {
+    display: none;
+  }
   /**************************/
   /* AREA OF PRACTICE SECTION */
   /**************************/
