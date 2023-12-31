@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Add scroll event listener to control slider visibility
     window.addEventListener("scroll", function () {
-      if (window.scrollY <= 100) {
+      if (window.scrollY <= 50) {
         // If scrolled to the top or down a bit, keep 'active' class on the slider
         slider.classList.add("active");
       } else {
