@@ -426,7 +426,7 @@
 }
 
 /******************************************************************************/
-/* BELOW  375 PX */
+/* BELOW  375 PX 23.4em */
 /******************************************************************************/
 @media (max-width: 23.4em) {
   /**************************/
@@ -434,7 +434,7 @@
   /**************************/
 
   .header {
-    padding: 0 0.5rem;
+    padding: 0 1rem;
   }
   .about-text-heading {
     padding-top: 2rem;
@@ -442,7 +442,7 @@
   }
   .about-desc {
     font-size: 2.3rem;
-    padding: 5rem 0.5rem 0rem 0.5rem;
+    padding: 5rem 1rem 0rem 1rem;
     line-height: 3rem;
   }
   .as-content {
@@ -455,7 +455,7 @@
   .col2 {
     grid-row: 2;
     width: 100%;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
   }
   .col2 h2 {
     font-size: 4rem;
@@ -467,10 +467,13 @@
     text-align: center;
     padding-bottom: 3rem;
   }
+  .ps-content {
+    height: 45rem;
+  }
   .ps-col1 {
     width: 100%;
     justify-items: center;
-    padding: 3rem 0.5rem 3rem 0.5rem;
+    padding: 3rem 1rem 3rem 1rem;
   }
   .ps-col1 h2 {
     font-size: 4rem;
@@ -490,7 +493,7 @@
   .cta-form {
     display: block;
     justify-content: center;
-    padding: 3rem 0.5rem;
+    padding: 3rem 1rem;
   }
   .cta-form * {
     padding: 0;
@@ -501,5 +504,16 @@
   .cta-form textarea {
     font-size: 1.75rem;
     padding: 0.6rem;
+  }
+  .fs-text {
+    padding: 0rem 1rem 0 1rem;
+  }
+  /* .fs-text h3 {
+    background-color: #b99671;
+    color: #000;
+  } */
+  .fsphone {
+    display: flex;
+    flex-direction: column;
   }
 }
