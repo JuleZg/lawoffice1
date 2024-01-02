@@ -55,6 +55,7 @@
   .about-desc {
     font-size: 2.5rem;
     padding-top: 0rem;
+    color: #000;
   }
   .col1,
   .col2 {
@@ -166,7 +167,7 @@
     padding: 0rem 0rem 3rem 0rem;
   }
   .pa-content p {
-    padding: 0rem 0rem 0rem 0rem;
+    padding: 2rem 0rem 0rem 0rem;
   }
   .pa-more {
     bottom: 1rem;
@@ -425,7 +426,7 @@
     padding: 0rem 0rem 3rem 0rem;
   }
   .pa-content p {
-    padding: 0rem 0rem 0rem 0rem;
+    padding: 2rem 0rem 0rem 0rem;
   }
   .pa-more {
     bottom: 1rem;
@@ -444,7 +445,7 @@
   .partnership-col5 {
     padding: 0rem 0rem 0rem 0rem;
     padding: 0rem 3rem;
-    text-align: left;
+    text-align: center;
   }
   .partnership-col2 h2,
   .partnership-col3 h2,
@@ -660,13 +661,72 @@
 /* 704 PX */
 /********************************************************************************************************/
 @media (max-width: 704px) {
-  .mobile-menu-button {
-    display: block;
-    font-size: 4rem;
-    stroke-width: 2rem;
-    border: none;
-    background-color: #b99671;
-    color: #fff;
+  .hero-img {
+    height: 23rem;
+    transform: scale(1.02);
+  }
+
+  .sc-text-2 {
+    display: none;
+  }
+  .as-content {
+    flex-direction: column;
+  }
+  .section-area p {
+    margin-bottom: 0rem;
+  }
+  .col1,
+  .col2 {
+    width: 100%;
+  }
+  .ps-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .pa-text {
+    margin: 0rem;
+  }
+  .col2 ul {
+    padding-top: 0rem;
+  }
+  .col2 li {
+    margin-bottom: 2rem;
+  }
+  .cta-heading {
+    padding-bottom: 3rem;
+  }
+  .name,
+  .email,
+  .telphone,
+  .text-message {
+    padding-bottom: 2rem;
+  }
+  .pa-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .pa-hero-text {
+    left: 20%;
+  }
+  .pa-content {
+    grid-template-columns: 1fr;
+  }
+  .pa-content p {
+    padding: 0rem 0rem 0rem 0rem;
+  }
+  .partnership-content {
+    display: flex;
+    flex-direction: column;
   }
 }
 
