@@ -380,7 +380,7 @@
     padding: 3rem 3rem 3rem 3rem;
   }
   .fs-text p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: normal;
     margin-bottom: 4.3rem;
   }
@@ -734,4 +734,76 @@
 /* 544 PX */
 /********************************************************************************************************/
 @media (max-width: 544px) {
+  .header {
+    padding: 0 0.6rem;
+  }
+  .hero-img {
+    height: 15rem;
+  }
+  .slider-content {
+    font-size: 1.3rem;
+  }
+  .sc-text-1 {
+    display: none;
+  }
+  .about-content {
+    padding: 1rem;
+  }
+  .about-text-heading {
+    padding: 0rem 0rem 2rem 0rem;
+    font-size: 4rem;
+  }
+  .about-desc {
+    font-size: 2rem;
+  }
+  .col1,
+  .col2 {
+    padding: 1rem;
+  }
+  .section-area h2 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+  .col2 li {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+  }
+  .ps-content {
+    padding: 1rem;
+  }
+  .ps-col1 h2 {
+    color: #b99671;
+
+    font-size: 4rem;
+    padding-bottom: 1rem;
+  }
+  .ps-col1 a {
+    font-size: 2.5rem;
+    color: #000;
+    float: right;
+  }
+  .ps-col1 a:hover {
+    color: #b99671;
+  }
+  .cta-form,
+  .fs-text {
+    padding: 1rem;
+  }
+  .cta-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .cta-heading {
+    font-size: 4rem;
+    padding-bottom: 0rem;
+  }
+  .fsphone {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .fs-text p {
+    margin-bottom: 1.3rem;
+  }
 }
