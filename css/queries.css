@@ -852,6 +852,12 @@
     font-size: 3rem;
     padding-bottom: 2rem;
   }
+  .pa-col1 h2,
+  .pa-col2 h2,
+  .pa-col3 h2,
+  .pa-col4 h2 {
+    text-align: center;
+  }
   .partnership-content {
     font-size: 1.8rem;
   }
@@ -868,7 +874,9 @@
   .partnership-col5 h2 {
     padding: 2rem 0rem 2rem 0rem;
     font-size: 3rem;
+    text-align: center;
   }
+
   .partnership-col2 p,
   .partnership-col3 p,
   .partnership-col4 p,
@@ -904,6 +912,15 @@
     display: flex;
     flex-direction: column;
   }
+  .bl-col1 h2,
+  .bl-col2 h2,
+  .bl-col3 h2,
+  .bl-col4 h2,
+  .bl-col5 h2,
+  .bl-col6 h2 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
   .bl-col1 p,
   .bl-col2 p,
   .bl-col3 p,
@@ -913,14 +930,5 @@
     padding: 0rem 0rem 0rem 0rem;
     font-size: 1.8rem;
     text-align: left;
-  }
-  .bl-col1 h2,
-  .bl-col2 h2,
-  .bl-col3 h2,
-  .bl-col4 h2,
-  .bl-col5 h2,
-  .bl-col6 h2 {
-    font-size: 3rem;
-    padding-bottom: 2rem;
   }
 }
