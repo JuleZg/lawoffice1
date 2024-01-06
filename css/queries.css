@@ -552,7 +552,7 @@
   .mobile-nav-menu {
     position: absolute;
     display: grid;
-    background-color: #ffffffe6;
+    background-color: rgba(255, 255, 255, 0.902);
     backdrop-filter: blur(1px);
     top: 4.8rem;
     right: 0;
@@ -917,7 +917,7 @@
   }
   .bl-hero-text {
     top: 50%;
-    left: 15%;
+    left: 8rem;
     font-size: 3rem;
   }
 
