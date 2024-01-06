@@ -535,6 +535,7 @@
   .dropdown:hover .dropdown-content {
     display: none;
   }
+
   .about-img {
     display: none;
   }
@@ -545,7 +546,6 @@
     background-color: #b99671;
     stroke-width: 2rem;
     color: #fff;
-
     width: 3rem;
     height: 3rem;
   }
@@ -571,8 +571,21 @@
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0);
-    padding: 20rem 0 30rem 0;
+    padding: 10rem 0 20rem 0;
     color: #000;
+  }
+  .mobile-nav-menu li {
+    padding-bottom: 2rem;
+  }
+  .--areas {
+    display: grid;
+    padding-left: 6rem;
+    text-decoration: none;
+  }
+  .--areas a {
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 2rem;
   }
 
   .header {
