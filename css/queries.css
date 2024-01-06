@@ -659,6 +659,11 @@
 /* 704 PX */
 /********************************************************************************************************/
 @media (max-width: 704px) {
+  #about,
+  #cta,
+  #partnership {
+    scroll-margin-top: 4.8rem;
+  }
   .hero-img {
     height: 23rem;
     transform: scale(1.02);
@@ -732,6 +737,11 @@
 /* 544 PX */
 /********************************************************************************************************/
 @media (max-width: 544px) {
+  #about,
+  #cta,
+  #partnership {
+    scroll-margin-top: 4.8rem;
+  }
   .header {
     padding: 0 0.8rem;
   }
@@ -849,9 +859,8 @@
   .partnership-col3,
   .partnership-col4,
   .partnership-col5 {
-    padding: 0rem 0rem 0rem 0rem;
     padding: 0rem 0.5rem;
-    text-align: center;
+    text-align: left;
   }
   .partnership-col2 h2,
   .partnership-col3 h2,
@@ -865,5 +874,53 @@
   .partnership-col4 p,
   .partnership-col5 p {
     padding: 0rem 0rem 2rem 0rem;
+  }
+
+  /* RADNO PRAVO */
+  .bl-hero-img-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .bl-hero {
+    margin-top: 4.9rem;
+  }
+
+  .bl-hero-img {
+    height: 10rem;
+    object-fit: cover;
+  }
+  .bl-hero-text {
+    top: 50%;
+    left: 15%;
+    font-size: 3rem;
+  }
+
+  .bl-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .bl-col1 p,
+  .bl-col2 p,
+  .bl-col3 p,
+  .bl-col4 p,
+  .bl-col5 p,
+  .bl-col6 p {
+    padding: 0rem 0rem 0rem 0rem;
+    font-size: 1.8rem;
+    text-align: left;
+  }
+  .bl-col1 h2,
+  .bl-col2 h2,
+  .bl-col3 h2,
+  .bl-col4 h2,
+  .bl-col5 h2,
+  .bl-col6 h2 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
   }
 }
