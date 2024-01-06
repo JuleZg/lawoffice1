@@ -571,21 +571,21 @@
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0);
-    padding: 10rem 0 20rem 0;
+    padding: 10rem 0 25rem 0;
     color: #000;
   }
   .mobile-nav-menu li {
-    padding-bottom: 2rem;
+    padding: 0rem;
   }
   .--areas {
     display: grid;
-    padding-left: 6rem;
+    padding: 0rem 0rem 0rem 5rem;
     text-decoration: none;
   }
   .--areas a {
     text-decoration: none;
     color: #000;
-    padding: 1rem 0;
+    padding: 1.5rem 0rem 0rem 0rem;
   }
 
   .header {
