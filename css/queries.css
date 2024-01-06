@@ -827,12 +827,13 @@
   }
 
   .pa-hero-img {
-    height: 16rem;
+    height: 10rem;
     object-fit: cover;
   }
   .pa-hero-text {
-    left: 30%;
     font-size: 3rem;
+    top: 50%;
+    left: 10rem;
   }
   .pa-content {
     font-size: 1.8rem;
@@ -843,6 +844,14 @@
   }
   .partnership-content {
     font-size: 1.8rem;
+  }
+  .partnership-col2,
+  .partnership-col3,
+  .partnership-col4,
+  .partnership-col5 {
+    padding: 0rem 0rem 0rem 0rem;
+    padding: 0rem 0.5rem;
+    text-align: center;
   }
   .partnership-col2 h2,
   .partnership-col3 h2,
