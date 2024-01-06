@@ -44,7 +44,6 @@ body {
   padding: 0 3.6rem;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
   color: #fff;
-  font-weight: 700;
   text-decoration: none;
 }
 .logo {
@@ -54,7 +53,6 @@ body {
   align-items: center;
   text-align: center;
   font-size: 2.2rem;
-  /* font-weight: 400; */
 }
 .logo:hover {
   color: #000;
@@ -113,7 +111,6 @@ body {
   padding: 10px;
   box-sizing: border-box;
   font-size: 2.5rem;
-  font-weight: 300;
 }
 
 /* Style for dropdown options */
@@ -210,7 +207,6 @@ body {
   /* grid-template-columns: 1fr; */
   background-color: #b99671;
   color: #fff;
-  font-weight: 700;
   text-align: center;
   padding: 3rem;
   place-items: center;
@@ -226,12 +222,9 @@ body {
 /**************************/
 /* AREA OF PRACTICE SECTION */
 /**************************/
-.section-area {
-  font-weight: 700;
-}
+
 .section-area h2 {
   font-size: 5.8rem;
-  font-weight: 700;
   padding-bottom: 5rem;
 }
 .section-area p {
@@ -241,7 +234,6 @@ body {
 }
 .section-area h3 {
   font-size: 4rem;
-  font-weight: 700;
   margin-bottom: 5rem;
   line-height: 3.5rem;
 }
